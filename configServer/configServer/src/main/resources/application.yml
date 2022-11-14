@@ -9,7 +9,7 @@ spring:
       server:
         git:
           uri: https://github.com/nsmtechdev/Be2.parcial
-          default-label: develop
+          default-label: main
           force-pull: true
           search-paths: config-data
 
