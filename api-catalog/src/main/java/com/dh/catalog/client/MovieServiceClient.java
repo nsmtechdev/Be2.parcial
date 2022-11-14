@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.List;
 
 @FeignClient(name="api-movie")
-@LoadBalancerClient(name = "api-movie", configuration = LoadBalancerConfiguration.class)
+/*@LoadBalancerClient(name = "api-movie", configuration = LoadBalancerConfiguration.class)*/
 public interface MovieServiceClient {
 
 	@GetMapping("/api/v1/movies/{genre}")

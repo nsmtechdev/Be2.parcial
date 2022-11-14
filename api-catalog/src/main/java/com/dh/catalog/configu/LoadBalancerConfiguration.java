@@ -11,9 +11,9 @@ import org.springframework.core.env.Environment;
 
 
 
-@Configuration
+/*@Configuration*/
 public class LoadBalancerConfiguration {
-    @Bean
+    /*@Bean
     ReactorLoadBalancer<ServiceInstance> configure(Environment environment, LoadBalancerClientFactory loadBalancerClientFactory) {
         String name = environment.getProperty(LoadBalancerClientFactory.PROPERTY_NAME);
         return new RoundRobinLoadBalancer(loadBalancerClientFactory.getLazyProvider(
@@ -21,7 +21,7 @@ public class LoadBalancerConfiguration {
         );
 
 
-    }
+    }*/
 
 }
 
