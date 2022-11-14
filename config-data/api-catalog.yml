@@ -6,7 +6,7 @@ spring:
 info:
   app:
     name: api-catalog
-    description: Catalogo of Movies
+    description: Catalog of Movies
 
 management:
   endpoints:
