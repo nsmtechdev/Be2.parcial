@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://https://github.com/nsmtechdev/Be2.parcial
+          uri: https://github.com/nsmtechdev/Be2.parcial
           default-label: develop
           force-pull: true
           search-paths: config-data
